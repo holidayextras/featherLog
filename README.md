@@ -55,7 +55,7 @@ Providing all the above has gone well, you will have all the facilities to do th
          $ cd feather                                       // move to Feather dir
          $ npm install                                      // install depencies
 
-###Run tests
+#Run tests
 
 Now you can run the tests. Chenge the rootLogger node in config/loggerProperties.js configuration and run the tests again.
 Have a play and feed back to author <viktor.trako@holidayextras.com> so that feather can evolve in the right direction.
