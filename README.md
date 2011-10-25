@@ -41,13 +41,13 @@ can be installed following these steps:
 
 * Now you are ready to fetch the npm code
 
-    `$ curl http://npmjs.org/install.sh | sh`
-    May be worth taking a look at the [README] (http://npmjs.org/doc/README.html) file.
+        `$ curl http://npmjs.org/install.sh | sh`
+        May be worth taking a look at the [README] (http://npmjs.org/doc/README.html) file.
 
 * Now you are ready to fetch feather
 Providing all the above has gone well, you will have all the facilities to do the following to get and try out feather
 
-    `$ git@github.com:holidayextras/feather.git         // fetch the code using git
-     $ cd feather                                       // move to Feather dir
-     $ npm install                                      // install depencies
-     $ node test/testLogger.js                          // run tests`
+        `$ git@github.com:holidayextras/feather.git         // fetch the code using git
+         $ cd feather                                       // move to Feather dir
+         $ npm install                                      // install depencies
+         $ node test/testLogger.js                          // run tests`
