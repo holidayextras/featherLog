@@ -8,7 +8,7 @@
     "engines": {
         "node": "*"
     },
-    "main": "lib/logger.js",
+    "main": "index",
     "author": "Viktor Trako <viktor.trako@holidayextras.com> (http://www.holidayextras.co.uk)",
     "repository": {
         "type": "git",
