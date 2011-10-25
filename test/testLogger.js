@@ -1,7 +1,6 @@
 require.paths.unshift('../lib','../config');
 
-var Logger = require('../lib/logger');
-var logger = new Logger();
+var logger = require('../lib/logger');
 var assert = require('assert');
 var fail = [];
 var pass = [];
