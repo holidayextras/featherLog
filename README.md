@@ -5,8 +5,9 @@
 * Why? because ogs that are useful during development can be discarded in production.
 
 It uses Unix log levels `[Emergency, Alert, Critical, Error, Warn, Notice, Info, Debug]`, and similarly to logging
-facilities like syslog Feather allowes you to define the lowest level to log from and up. This avoids printing out debug
-logs in production, for example.
+facilities like [syslog] (http://www.syslog.org/), Feather allows you to define the highest level to log up too.
+This avoids printing out debug logs in production, for example. Or if you want to discard both Info and Debug level logs
+you can. This is what loger can do for you.
 
 ##Get Feather
 
@@ -53,4 +54,10 @@ Providing all the above has gone well, you will have all the facilities to do th
         `$ git@github.com:holidayextras/feather.git         // fetch the code using git
          $ cd feather                                       // move to Feather dir
          $ npm install                                      // install depencies
-         $ node test/testLogger.js                          // run tests`
+
+###Run tests
+
+Now you can run the tests. Chenge the rootLogger node in config/loggerProperties.js configuration and run the tests again.
+Have a play and feed back to author <viktor.trako@holidayextras.com> so that feather can evolve in the right direction.
+
+    $ node test/testLogger.js                          // run tests`
