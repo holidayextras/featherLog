@@ -86,12 +86,12 @@ use its default configuration file in feather/config/featherProperties.
 * Taking a look inside feather/config/featherProperties:
 
     `module.exports = {
-          "fileLocation": "logs/feather/",
-          "appName": "Feather",
-          "timestampFormat" : "ddd, dd MMM yyyy HH:mm:ss",
-          "dateFormat" : "yyyyMMdd",
-          "host" : '172.0.0.1',
-          "rootLevel" : "Info"
+        "fileLocation": "logs/feather/",
+        "appName": "Feather",
+        "timestampFormat" : "ddd, dd MMM yyyy HH:mm:ss",
+        "dateFormat" : "yyyyMMdd",
+        "host" : '172.0.0.1',
+        "rootLevel" : "Info"
         }`
 
  This is a good example of the properties set. Whatever value the rootLevel node is set to then nothing below that
