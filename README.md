@@ -59,17 +59,16 @@ Providing all the above has gone well, you will have all the facilities to do th
 
 * Functions provided by feather are:
 
-    `var logger = require('feather');
-     `
-    `logger.emergency('emergency message');
-     logger.alert('alert message);
-     logger.critical('critical error message');
-     logger.error('error message');
-     logger.warn('warn message');
-     logger.notice('notice message');
-     logger.info('info message');
-     logger.debug('data data');
-    `
+        `var logger = require('feather');`
+
+        `logger.emergency('emergency message');
+         logger.alert('alert message);
+         logger.critical('critical error message');
+         logger.error('error message');
+         logger.warn('warn message');
+         logger.notice('notice message');
+         logger.info('info message');
+         logger.debug('data data');`
 
 #Run tests
 
@@ -92,7 +91,7 @@ use its default configuration file in feather/config/featherProperties.
         "dateFormat" : "yyyyMMdd",
         "host" : '172.0.0.1',
         "rootLevel" : "Info"
-        }`
+     }`
 
  This is a good example of the properties set. Whatever value the rootLevel node is set to then nothing below that
  value will be loged. In the instance above where `[info]` is set, all log messages will be loged apart from `[debug]`
