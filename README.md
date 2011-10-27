@@ -9,7 +9,7 @@ facilities like [syslog] (http://www.syslog.org/), Feather allows you to define 
 This avoids printing out debug logs in production, for example. Or if you want to discard both Info and Debug level logs
 you can. This is what loger can do for you.
 
-##Get Feather
+##Get Feather (if you have node.js and npm installed then skip to the [Main] step below)
 
 Feather runs on node.js. In order to run feather ant the tests first install node. The follwing instructions install node.js on Ubuntu
 Linux, other Unix distros may vary. For OSx, Windows or other please find other instructions to follow.
@@ -48,6 +48,8 @@ can be installed following these steps:
 
 * May be worth taking a look at the [README] (http://npmjs.org/doc/README.html) file.
 
+#Main step below
+
 * Now you are ready to fetch feather
 Providing all the above has gone well, you will have all the facilities to do the following to get and try out feather
 
@@ -58,6 +60,10 @@ Providing all the above has gone well, you will have all the facilities to do th
 #Run tests
 
 Now you can run the tests. Chenge the rootLogger node in config/loggerProperties.js configuration and run the tests again.
-Have a play and feed back to author <viktor.trako@holidayextras.com> so that feather can evolve in the right direction.
+Have a play and feed back to me at <viktor.trako@holidayextras.com>.
 
     $ node test/testLogger.js                          // run tests`
+
+#Set up
+
+* Feather looks for a loggerProperties.js in config directory in your app directory.
