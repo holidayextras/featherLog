@@ -1,5 +1,5 @@
 module.exports = {
-  "fileLocation": "logs/featherLogger/",
+  "fileLocation": "logs/feather/",
   "appName": "Feather",
   "timestampFormat" : "ddd, dd MMM yyyy HH:mm:ss",
   "dateFormat" : "yyyyMMdd",
