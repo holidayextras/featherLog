@@ -1,5 +1,3 @@
-require.paths.unshift('../lib','../config');
-
 var logger = require('../lib/logger');
 var assert = require('assert');
 var fail = [];
