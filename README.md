@@ -57,6 +57,20 @@ Providing all the above has gone well, you will have all the facilities to do th
          $ cd feather                                       // move to Feather dir
          $ npm install                                      // install depencies
 
+* Functions provided by feather are:
+
+    `var logger = require('feather');
+     `
+    `logger.emergency('emergency message');
+     logger.alert('alert message);
+     logger.critical('critical error message');
+     logger.error('error message');
+     logger.warn('warn message');
+     logger.notice('notice message');
+     logger.info('info message');
+     logger.debug('data data');
+    `
+
 #Run tests
 
 Now you can run the tests. Chenge the rootLogger node in config/loggerProperties.js configuration and run the tests again.
@@ -66,4 +80,21 @@ Have a play and feed back to me at <viktor.trako@holidayextras.com>.
 
 #Set up
 
-* Feather looks for a loggerProperties.js in config directory in your app directory.
+* Feather looks for a featherProperties.js in config directory in your app directory. If it cannot find one then it will
+use its default configuration file in feather/config/featherProperties.
+
+* Taking a look inside feather/config/featherProperties:
+
+    `module.exports = {
+          "fileLocation": "logs/feather/",
+          "appName": "Feather",
+          "timestampFormat" : "ddd, dd MMM yyyy HH:mm:ss",
+          "dateFormat" : "yyyyMMdd",
+          "host" : '172.0.0.1',
+          "rootLevel" : "Info"
+        }`
+
+ This is a good example of the properties set. Whatever value the rootLevel node is set to then nothing below that
+ value will be loged. In the instance above where `[info]` is set, all log messages will be loged apart from `[debug]`
+ messages. If `[wanr]` is assigned to rootLevel then `[notice]`, `[info]`, and `[debug]` messages throughout your
+ codebase will be ignored.

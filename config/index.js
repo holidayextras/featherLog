@@ -1,1 +1,1 @@
-module.exports = require('./loggerProperties');
+module.exports = require('./featherProperties');
