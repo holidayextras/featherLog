@@ -1,18 +1,13 @@
 {
     "name":"feather",
-    "version":"0.0.1",
+    "version":"0.0.2",
+    "keywords": ["logger", "lightweight", "Unix style logging", "info debug warn"],
+    "engines": { "node": "*"},
+    "main": "index",
+    "author": {"name" :"Viktor Trako", "email": "viktor.trako@holidayextras.com", "url": "http://www.holidayextras.com"},
+    "repository": { "type": "git", "url": "git@github.com:holidayextras/feather.git"},
     "dependencies":{
         "datejs":"0.0.2"
-    },
-    "keywords": ["logger", "lightweight", "Unix style logging"],
-    "engines": {
-        "node": "*"
-    },
-    "main": "index",
-    "author": "Viktor Trako <viktor.trako@holidayextras.com> (http://www.holidayextras.co.uk)",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:holidayextras/feather.git"
     },
     "licenses": [
         {

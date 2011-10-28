@@ -95,5 +95,5 @@ use its default configuration file in feather/config/featherProperties.
 
  This is a good example of the properties set. Whatever value the rootLevel node is set to then nothing below that
  value will be loged. In the instance above where `[info]` is set, all log messages will be loged apart from `[debug]`
- messages. If `[wanr]` is assigned to rootLevel then `[notice]`, `[info]`, and `[debug]` messages throughout your
+ messages. If `[warn]` is assigned to rootLevel then `[notice]`, `[info]`, and `[debug]` messages throughout your
  codebase will be ignored.
