@@ -5,6 +5,9 @@
     "engines": { "node": "*"},
     "main": "index",
     "author": {"name" :"Viktor Trako", "email": "viktor.trako@holidayextras.com", "url": "http://www.holidayextras.com"},
+    "time" : {
+        "0.0.1" : "2011-10-29T19:27:53.354Z"
+    },
     "repository": { "type": "git", "url": "git@github.com:holidayextras/feather.git"},
     "dependencies":{
         "datejs":"0.0.2"
